@@ -320,7 +320,7 @@ function clearFieldError(field) {
     if (field.closest('.cta-contact-form')) {
         field.style.borderColor = '#e9ecef';
     } else {
-        field.style.borderColor = '#e5e7eb';
+    field.style.borderColor = '#e5e7eb';
     }
     
     const existingError = field.parentElement.querySelector('.field-error');

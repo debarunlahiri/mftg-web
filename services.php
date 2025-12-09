@@ -28,7 +28,7 @@ require_once 'includes/header.php';
             <div class="services-section-header">
                 <h2 class="section-title-main mb-2">Women's Clothing Manufacturing</h2>
                 <h3 class="section-subtitle-main mb-4">Ready-to-Wear & Private Label</h3>
-            </div>
+                        </div>
             
             <p class="services-description mb-5">
                 MFTG specializes in manufacturing premium women's clothing for global private-label brands. With advanced machinery, 
@@ -47,18 +47,18 @@ require_once 'includes/header.php';
                         <li>Procurement of high-grade poly fabrics, blends, and specialty materials</li>
                     </ul>
                 </div>
-                
+
                 <div class="service-feature-box">
                     <div class="service-feature-icon-box">
                         <i class="bi bi-tags"></i>
-                    </div>
+                        </div>
                     <h4>Tailored Production for Private Labels</h4>
                     <ul class="feature-list">
                         <li>Manufacturing under client brand name</li>
                         <li>Label, tag, and brand packaging customization</li>
                         <li>MOQ flexibility for start-ups & large brands</li>
-                    </ul>
-                </div>
+                            </ul>
+                        </div>
             </div>
 
             <div class="services-section-divider mb-5">
@@ -109,7 +109,7 @@ require_once 'includes/header.php';
                 <div class="highlight-box">
                     <div class="highlight-icon">
                         <i class="bi bi-shield-check"></i>
-                    </div>
+                        </div>
                     <h4>Strict Quality Assurance</h4>
                     <p>Every garment undergoes:</p>
                     <ul class="feature-list">
@@ -117,17 +117,17 @@ require_once 'includes/header.php';
                         <li>Stitching quality check</li>
                         <li>Print durability testing</li>
                         <li>Final finishing & packaging checks</li>
-                    </ul>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
 
         <!-- Kids Toys & Gift Items Section -->
         <div class="services-detailed mb-5">
             <div class="services-section-header">
                 <h2 class="section-title-main mb-2">Kids Toys & Gift Items</h2>
                 <h3 class="section-subtitle-main mb-4">All Age Groups</h3>
-            </div>
+                        </div>
             
             <p class="services-description mb-5">
                 MFTG is also a trusted supplier of kids toys and gifting items suitable for retail stores, online sellers, 
@@ -136,7 +136,7 @@ require_once 'includes/header.php';
 
             <div class="services-section-divider mb-5">
                 <h4 class="section-title-sub">Product Categories Include</h4>
-            </div>
+                        </div>
 
             <div class="toys-categories-grid">
                 <div class="toy-category-box">
@@ -156,13 +156,13 @@ require_once 'includes/header.php';
                     <div class="toy-category-header">
                         <i class="bi bi-heart"></i>
                         <h4>Soft Toys & Plush Items</h4>
-                    </div>
+                        </div>
                     <ul class="toy-category-list">
                         <li>Teddy bears</li>
                         <li>Character toys</li>
                         <li>Custom plushes (branding available)</li>
-                    </ul>
-                </div>
+                            </ul>
+                        </div>
 
                 <div class="toy-category-box">
                     <div class="toy-category-header">
@@ -180,13 +180,13 @@ require_once 'includes/header.php';
                     <div class="toy-category-header">
                         <i class="bi bi-lightning"></i>
                         <h4>Battery-Operated Toys</h4>
-                    </div>
+                        </div>
                     <ul class="toy-category-list">
                         <li>Cars, bikes, robots</li>
                         <li>Musical toys</li>
                         <li>Interactive learning toys</li>
-                    </ul>
-                </div>
+                            </ul>
+                        </div>
 
                 <div class="toy-category-box">
                     <div class="toy-category-header">
@@ -204,14 +204,14 @@ require_once 'includes/header.php';
                     <div class="toy-category-header">
                         <i class="bi bi-gift"></i>
                         <h4>Return Gift & Festival Hampers</h4>
-                    </div>
+                        </div>
                     <ul class="toy-category-list">
                         <li>Birthday gift packs</li>
                         <li>School event gifts</li>
                         <li>Rakhi, Diwali, Christmas hampers</li>
-                    </ul>
-                </div>
-            </div>
+                            </ul>
+                        </div>
+                    </div>
 
             <div class="custom-gifting-box mt-5">
                 <div class="custom-gifting-icon">

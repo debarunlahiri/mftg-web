@@ -33,7 +33,7 @@ require_once 'includes/header.php';
              data-title="Kids Toys & Gift Items"
              data-subtitle="All Age Groups - Educational, Fun & Safe"
              data-description="Trusted supplier of kids toys and gifting items for retail stores, online sellers, corporate gifting companies, schools, and events. From educational toys to soft toys, creative kits, and festival hampers.">
-            <div class="hero-overlay"></div>
+    <div class="hero-overlay"></div>
         </div>
     </div>
     <div class="container">
@@ -197,7 +197,7 @@ require_once 'includes/header.php';
                 <div class="form-group">
                     <label for="cta-message">Message *</label>
                     <textarea id="cta-message" name="message" rows="4" required placeholder="Tell us about your requirements..."></textarea>
-                </div>
+            </div>
                 <button type="submit" class="btn btn-primary btn-block">Send Message</button>
             </form>
         </div>
