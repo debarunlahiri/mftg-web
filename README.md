@@ -2,7 +2,13 @@
 
 Official website for MFTG - a Noida-based company specializing in Women's Clothing Manufacturing (Ready-to-Wear & Private Label) and Kids Toys & Gift Items.
 
-![MFTG Website Screenshot](assets/screenshots/image.png)
+## Screenshots
+
+![MFTG Website Screenshot 1](assets/screenshots/image.png)
+
+![MFTG Website Screenshot 2](assets/screenshots/image2.png)
+
+![MFTG Website Screenshot 3](assets/screenshots/image3.png)
 
 ## Project Overview
 
