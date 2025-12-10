@@ -8,7 +8,7 @@ require_once 'includes/header.php';
 <section class="page-header">
     <div class="container">
         <h1>About Us</h1>
-        <p>Learn more about MFTG and our journey</p>
+        <p>Learn more about Mundeshwari Fashion Toys & Gifts and our journey</p>
     </div>
 </section>
 
@@ -18,9 +18,9 @@ require_once 'includes/header.php';
         <div class="row g-4">
             <div class="col-lg-8">
                 <div class="about-main">
-                    <h2 class="mb-4">About MFTG</h2>
+                    <h2 class="mb-4">About Mundeshwari Fashion Toys & Gifts</h2>
                     <p class="text-muted mb-4">
-                        MFTG is one of the trusted names among women's clothing manufacturers in India. We specialize in producing 
+                        Mundeshwari Fashion Toys & Gifts is one of the trusted names among women's clothing manufacturers in India. We specialize in producing 
                         premium-quality, ready-to-wear women's clothing and export across the globe, serving numerous clients simultaneously.
                     </p>
                     <p class="text-muted mb-4">
@@ -32,11 +32,11 @@ require_once 'includes/header.php';
 
                     <h2 class="mb-4">Kids Toys & Gift Items</h2>
                     <p class="text-muted mb-4">
-                        In addition to clothing manufacturing, MFTG provides a wide variety of kids toys and gift items suitable for all age groups. 
+                        In addition to clothing manufacturing, Mundeshwari Fashion Toys & Gifts provides a wide variety of kids toys and gift items suitable for all age groups. 
                         We supply educational toys, soft toys, learning games, outdoor toys, return gifts, festival hampers, and branded gift items.
                     </p>
 
-                    <h2 class="mb-4">Why Choose MFTG?</h2>
+                    <h2 class="mb-4">Why Choose Mundeshwari Fashion Toys & Gifts?</h2>
                     <div class="row g-4 mb-5">
                         <div class="col-md-6">
                             <div class="why-choose-card h-100">
@@ -97,7 +97,7 @@ require_once 'includes/header.php';
                     <h2 class="mb-4">Women's Clothing Manufacturing</h2>
                     <h3 class="mb-3">Ready-to-Wear & Private Label</h3>
                     <p class="text-muted mb-3">
-                        MFTG specializes in manufacturing premium women's clothing for global private-label brands. With advanced machinery, 
+                        Mundeshwari Fashion Toys & Gifts specializes in manufacturing premium women's clothing for global private-label brands. With advanced machinery, 
                         skilled craftsmen, and strict quality standards, we deliver top-tier garments that meet international fashion expectations.
                     </p>
 
@@ -170,7 +170,7 @@ require_once 'includes/header.php';
 
                     <h2 class="mb-4">Kids Toys & Gift Items</h2>
                     <p class="text-muted mb-3">
-                        MFTG is also a trusted supplier of kids toys and gifting items suitable for retail stores, online sellers, 
+                        Mundeshwari Fashion Toys & Gifts is also a trusted supplier of kids toys and gifting items suitable for retail stores, online sellers, 
                         corporate gifting companies, schools, and events.
                     </p>
 

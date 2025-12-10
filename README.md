@@ -1,18 +1,18 @@
-# MFTG Website
+# Mundeshwari Fashion Toys & Gifts Website
 
-Official website for MFTG - a Noida-based company specializing in Women's Clothing Manufacturing (Ready-to-Wear & Private Label) and Kids Toys & Gift Items.
+Official website for Mundeshwari Fashion Toys & Gifts - a Noida-based company specializing in Women's Clothing Manufacturing (Ready-to-Wear & Private Label) and Kids Toys & Gift Items.
 
 ## Screenshots
 
-![MFTG Website Screenshot 1](assets/screenshots/image.png)
+![Mundeshwari Fashion Toys & Gifts Website Screenshot 1](assets/screenshots/image.png)
 
-![MFTG Website Screenshot 2](assets/screenshots/image2.png)
+![Mundeshwari Fashion Toys & Gifts Website Screenshot 2](assets/screenshots/image2.png)
 
-![MFTG Website Screenshot 3](assets/screenshots/image3.png)
+![Mundeshwari Fashion Toys & Gifts Website Screenshot 3](assets/screenshots/image3.png)
 
 ## Project Overview
 
-This is a responsive PHP-based website built with Bootstrap and custom CSS. The website showcases MFTG's services, company information, and provides contact forms for client inquiries.
+This is a responsive PHP-based website built with Bootstrap and custom CSS. The website showcases Mundeshwari Fashion Toys & Gifts's services, company information, and provides contact forms for client inquiries.
 
 ## Features
 
@@ -75,7 +75,7 @@ mftg-web/
 
 Site-wide configuration is managed in `config.php`. Key constants include:
 
-- `SITE_NAME`: Company name (currently "MFTG")
+- `SITE_NAME`: Company name (currently "Mundeshwari Fashion Toys & Gifts")
 - `SITE_URL`: Automatically detected base URL
 - `SITE_EMAIL`: Contact email address
 - `SITE_PHONE1` & `SITE_PHONE2`: Contact phone numbers
@@ -94,7 +94,7 @@ The `SITE_URL` is dynamically generated based on the current request, ensuring a
 
 ### About Us (`about.php`)
 - Company profile and mission/vision
-- Why Choose MFTG section
+- Why Choose Mundeshwari Fashion Toys & Gifts section
 - Expertise areas
 - Product categories
 - Quality assurance information
@@ -153,5 +153,5 @@ The `SITE_URL` is dynamically generated based on the current request, ensuring a
 
 ## License
 
-Proprietary - All rights reserved by MFTG
+Proprietary - All rights reserved by Mundeshwari Fashion Toys & Gifts
 

@@ -484,11 +484,8 @@ function initHeroCarousel() {
     // Initialize first slide
     showSlide(currentSlide);
     
-    // Wait a bit after initial load, then start auto-advance
-    // This ensures everything is loaded and the first slide is fully displayed
-    setTimeout(() => {
-        startCarousel();
-    }, slideInterval); // Wait one full interval before starting to auto-advance
+    // Start carousel immediately - it will show first slide for full interval, then advance
+    startCarousel();
     
     // Click on indicators to navigate
     indicators.forEach((indicator, index) => {
@@ -499,20 +496,5 @@ function initHeroCarousel() {
             startCarousel();
         });
     });
-    
-    // Pause on hover
-    const heroSection = document.querySelector('.hero-section');
-    if (heroSection) {
-        heroSection.addEventListener('mouseenter', () => {
-            if (carouselInterval) {
-                clearInterval(carouselInterval);
-                carouselInterval = null;
-            }
-        });
-        
-        heroSection.addEventListener('mouseleave', () => {
-            startCarousel();
-        });
-    }
 }
 

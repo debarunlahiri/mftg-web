@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row g-4 mb-4">
                 <div class="col-lg-3 col-md-6">
-                    <h3 class="mb-3"><?php echo SITE_NAME; ?></h3>
+                    <h3 class="mb-3">Mundeshwari Fashion Toys & Gifts</h3>
                     <p class="text-white-50">Leading provider of digital sublimation printing services in Delhi NCR. We specialize in high-quality printing on poly fabrics, sportswear, home furnishing, and promotional items.</p>
                 </div>
                 <div class="col-lg-3 col-md-6">

@@ -45,8 +45,11 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
             <a class="navbar-brand d-flex align-items-center gap-3" href="<?php echo SITE_URL; ?>/index.php">
                 <img src="<?php echo SITE_URL; ?>/assets/images/logo.jpeg" alt="<?php echo SITE_NAME; ?>" class="logo-image">
                 <div class="logo-text">
-                    <h1 class="mb-0"><?php echo SITE_NAME; ?></h1>
-                    <p class="tagline mb-0">Clothing Manufacturer & Kids Toys</p>
+                    <h1 class="mb-0">
+                        <span class="company-name-desktop"><?php echo SITE_NAME; ?></span>
+                        <span class="company-name-mobile">MFTG</span>
+                    </h1>
+                    <p class="tagline mb-0">Mundeshwari Fashion Toys & Gifts</p>
                 </div>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

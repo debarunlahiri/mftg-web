@@ -1,6 +1,6 @@
 <?php
 // Site Configuration
-define('SITE_NAME', 'MFTG');
+define('SITE_NAME', 'Mundeshwari Fashion Toys & Gifts');
 
 // Dynamically determine the base URL based on current request
 // This ensures CSS, images, and other assets work when accessing via IP address or domain
@@ -36,7 +36,7 @@ define('SITE_WEBSITE', 'www.mftgindia.com');
 // Page titles
 $page_titles = [
     'home' => 'Home - Women\'s Clothing Manufacturer & Kids Toys Supplier',
-    'about' => 'About Us - MFTG',
+    'about' => 'About Us - Mundeshwari Fashion Toys & Gifts',
     'services' => 'Our Services - Clothing Manufacturing & Kids Toys',
     'contact' => 'Contact Us - Get in Touch',
     'enquiry' => 'Enquiry - Request a Quote'
