@@ -52,7 +52,7 @@ $services_list = [
     [
         'title' => 'Kids Toys & Gift Items',
         'image' => 'sports-wear-printing.jpeg',
-        'description' => 'All Age Groups - Trusted supplier of kids toys and gifting items suitable for retail stores, online sellers, corporate gifting companies, schools, and events.'
+        'description' => 'All Age Groups - Trusted manufacturer of plush toys and gifting items suitable for retail stores, online sellers, corporate gifting companies, schools, and events.'
     ]
 ];
 ?>

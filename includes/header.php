@@ -9,7 +9,7 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="MFTG - Trusted women's clothing manufacturer in India. Government-registered manufacturer specializing in premium ready-to-wear women's clothing for global private-label brands. Also supplies kids toys and gift items.">
+    <meta name="description" content="MFTG - Trusted women's clothing manufacturer in India. Government-registered manufacturer specializing in premium ready-to-wear women's clothing for global private-label brands. Also manufactures plush toys and related gift items.">
     <meta name="keywords" content="digital printing, sublimation printing, poly fabric printing, sportswear printing, Noida, Delhi NCR">
     <title><?php echo isset($page_title) ? $page_title : SITE_NAME; ?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">

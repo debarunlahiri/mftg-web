@@ -11,7 +11,7 @@ require_once 'includes/header.php';
              style="background-image: url('<?php echo SITE_URL; ?>/assets/carousel/1.jpg');"
              data-title="Welcome to Mundeshwari Fashion Toys & Gifts"
              data-subtitle="Trusted Women's Clothing Manufacturer & Kids Toys Supplier"
-             data-description="Government-registered manufacturer specializing in premium ready-to-wear women's clothing for global private-label brands. We also supply a wide range of kids toys and gift items. Quality, affordability, and timely delivery guaranteed.">
+             data-description="Government-registered manufacturer specializing in premium ready-to-wear women's clothing for global private-label brands. We also supply plush toys and related gift items. Quality, affordability, and timely delivery guaranteed.">
             <div class="hero-overlay"></div>
         </div>
         <div class="hero-slide" 
@@ -24,15 +24,15 @@ require_once 'includes/header.php';
         <div class="hero-slide" 
              style="background-image: url('<?php echo SITE_URL; ?>/assets/carousel/3.jpg');"
              data-title="Complete Range of Apparel"
-             data-subtitle="Kurtis, Western Wear, Co-ord Sets & More"
-             data-description="Offering a complete range of ready-to-wear categories including kurtis, tunics, tops, co-ord sets, western wear, leggings, and casual wear. High-capacity production with fast turnaround and zero-delay bulk manufacturing.">
+             data-subtitle="Ladies Top, Skirt, Lehanga, Blazer & More"
+             data-description="Offering a complete range of ready-to-wear categories including ladies tops, skirts, lehangas, blazers, dresses, trousers, co-ord sets, and casual wear. High-capacity production with fast turnaround and zero-delay bulk manufacturing.">
             <div class="hero-overlay"></div>
         </div>
         <div class="hero-slide" 
              style="background-image: url('<?php echo SITE_URL; ?>/assets/carousel/4.jpg');"
              data-title="Kids Toys & Gift Items"
              data-subtitle="All Age Groups - Educational, Fun & Safe"
-             data-description="Trusted supplier of kids toys and gifting items for retail stores, online sellers, corporate gifting companies, schools, and events. From educational toys to soft toys, creative kits, and festival hampers.">
+             data-description="We manufacture premium plush toys and gift items, serving retail stores, online sellers, corporate gifting companies, schools, and event organizers. Our range includes educational plush items, character toys, gift sets, and festival hampers.">
     <div class="hero-overlay"></div>
         </div>
     </div>
@@ -42,7 +42,7 @@ require_once 'includes/header.php';
             <p class="hero-subtitle">Trusted Women's Clothing Manufacturer & Kids Toys Supplier</p>
             <p class="hero-description">
                 Government-registered manufacturer specializing in premium ready-to-wear women's clothing for global private-label brands. 
-                We also supply a wide range of kids toys and gift items. Quality, affordability, and timely delivery guaranteed.
+                We also manufacture and supply plush toys and related gift items. Quality, affordability, and timely delivery guaranteed.
             </p>
             <div class="hero-buttons">
                 <a href="<?php echo SITE_URL; ?>/services.php" class="btn btn-primary">Our Services</a>
@@ -77,7 +77,7 @@ require_once 'includes/header.php';
                     Supported by top-grade machinery and a skilled workforce, we eliminate production delays and efficiently serve multiple clients at once.
                 </p>
                 <p>
-                    In addition to clothing manufacturing, Mundeshwari Fashion Toys & Gifts provides a wide variety of kids toys and gift items suitable for all age groups, 
+                    In addition to clothing manufacturing, Mundeshwari Fashion Toys & Gifts specializes in manufacturing plush toys and related gift items suitable for all age groups, 
                     retail stores, online sellers, corporate gifting companies, schools, and events.
                 </p>
                 <a href="<?php echo SITE_URL; ?>/about.php" class="btn btn-primary">Learn More</a>
@@ -101,7 +101,7 @@ require_once 'includes/header.php';
                 <div class="feature-card">
                     <div class="feature-icon">✓</div>
                     <h3>Kids Toys & Gifts</h3>
-                    <p>Wide range of educational and fun toys for all ages</p>
+                    <p>Wide range of plush toys and gift items for all ages</p>
                 </div>
             </div>
         </div>
@@ -114,7 +114,7 @@ require_once 'includes/header.php';
         <div class="section-header">
             <h2>Our Services</h2>
             <div class="section-divider"></div>
-            <p>Comprehensive women's clothing manufacturing and kids toys solutions</p>
+            <p>Comprehensive women's clothing manufacturing and plush toys solutions</p>
         </div>
         <div class="services-grid-modern">
             <div class="service-card-modern">
@@ -142,7 +142,7 @@ require_once 'includes/header.php';
             </div>
             <div class="service-card-modern">
                 <div class="service-image-wrapper">
-                    <img src="<?php echo SITE_URL; ?>/assets/images/services/kids-toys.jpg"
+                    <img src="<?php echo SITE_URL; ?>/assets/images/services/plush-toys3.jpg"
                         alt="Kids Toys & Gift Items"
                         onerror="this.src='<?php echo SITE_URL; ?>/assets/images/placeholder.jpg'; this.onerror=null;">
                     <div class="service-overlay"></div>
@@ -153,15 +153,15 @@ require_once 'includes/header.php';
                 <div class="service-content">
                     <span class="service-badge">All Age Groups</span>
                     <h3>Kids Toys & Gift Items</h3>
-                    <p class="service-description">Trusted supplier of kids toys and gifting items suitable for retail stores, online sellers, corporate gifting companies, schools, and events.</p>
+                    <p class="service-description">We manufacture premium plush toys and gift items, serving retail stores, online sellers, corporate gifting companies, schools, and event organizers with quality products for all occasions.</p>
                     <ul class="service-features-list">
-                        <li><i class="bi bi-check-circle-fill"></i> Educational Toys</li>
-                        <li><i class="bi bi-check-circle-fill"></i> Soft Toys & Plush Items</li>
-                        <li><i class="bi bi-check-circle-fill"></i> Creative & DIY Kits</li>
-                        <li><i class="bi bi-check-circle-fill"></i> Battery-Operated Toys</li>
-                        <li><i class="bi bi-check-circle-fill"></i> Outdoor & Sports Toys</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Plush Toys & Stuffed Animals</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Educational Plush Items</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Custom Character Toys</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Gift Sets & Hampers</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Products for All Ages</li>
                         <li><i class="bi bi-check-circle-fill"></i> Return Gift & Festival Hampers</li>
-                        <li><i class="bi bi-check-circle-fill"></i> Custom Gifting Solutions</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Custom Branding Solutions</li>
                     </ul>
                 </div>
             </div>
@@ -178,7 +178,7 @@ require_once 'includes/header.php';
     <div class="container">
         <div class="cta-content">
             <h2>Interested in Our Services?</h2>
-            <p>Get in touch with us today for clothing manufacturing or kids toys supply. Quality, affordability, and timely delivery guaranteed.</p>
+            <p>Get in touch with us today for clothing manufacturing or plush toys supply. Quality, affordability, and timely delivery guaranteed.</p>
             <form id="ctaContactForm" class="cta-contact-form" action="process-contact.php" method="POST">
                 <div class="cta-form-row">
                     <div class="form-group">

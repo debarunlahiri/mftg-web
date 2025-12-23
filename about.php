@@ -32,8 +32,8 @@ require_once 'includes/header.php';
 
                     <h2 class="mb-4">Kids Toys & Gift Items</h2>
                     <p class="text-muted mb-4">
-                        In addition to clothing manufacturing, Mundeshwari Fashion Toys & Gifts provides a wide variety of kids toys and gift items suitable for all age groups. 
-                        We supply educational toys, soft toys, learning games, outdoor toys, return gifts, festival hampers, and branded gift items.
+                        In addition to clothing manufacturing, Mundeshwari Fashion Toys & Gifts specializes in manufacturing plush toys and related gift items suitable for all age groups. 
+                        We supply educational plush items, character toys, return gifts, festival hampers, and branded gift items.
                     </p>
 
                     <h2 class="mb-4">Why Choose Mundeshwari Fashion Toys & Gifts?</h2>
@@ -89,7 +89,7 @@ require_once 'includes/header.php';
                                     <i class="bi bi-box-seam"></i>
                                 </div>
                                 <h3>Extensive Product Range</h3>
-                                <p>Wide range of kids toys & gifting products for all age groups and occasions.</p>
+                                <p>Wide range of plush toys and gifting products for all age groups and occasions</p>
                             </div>
                         </div>
                     </div>
@@ -133,12 +133,14 @@ require_once 'includes/header.php';
 
                     <h4 class="mb-4">Complete Range of Ready-to-Wear Categories:</h4>
                     <div class="categories-grid mb-5">
-                        <div class="category-badge">Kurtis, Tunics & Tops</div>
+                        <div class="category-badge">Ladies Top</div>
+                        <div class="category-badge">Skirt</div>
+                        <div class="category-badge">Lehanga</div>
+                        <div class="category-badge">Blazer</div>
+                        <div class="category-badge">Dresses</div>
+                        <div class="category-badge">Trousers & Pants</div>
                         <div class="category-badge">Co-ord Sets</div>
-                        <div class="category-badge">Western Wear</div>
-                        <div class="category-badge">Leggings & Bottom Wear</div>
-                        <div class="category-badge">Casual & Semi-Formal Wear</div>
-                        <div class="category-badge">Daily Wear & Budget Lines</div>
+                        <div class="category-badge">Kurtis & Tunics</div>
                     </div>
 
                     <h4 class="mb-3">High-Capacity Production with Fast Turnaround</h4>
@@ -170,75 +172,39 @@ require_once 'includes/header.php';
 
                     <h2 class="mb-4">Kids Toys & Gift Items</h2>
                     <p class="text-muted mb-3">
-                        Mundeshwari Fashion Toys & Gifts is also a trusted supplier of kids toys and gifting items suitable for retail stores, online sellers, 
-                        corporate gifting companies, schools, and events.
+                        Mundeshwari Fashion Toys & Gifts manufactures premium plush toys and gift items, serving retail stores, online sellers, 
+                        corporate gifting companies, schools, and event organizers with quality products for all occasions.
                     </p>
 
-                    <h4 class="mb-4">Product Categories Include:</h4>
+                    <h4 class="mb-4">Product Categories:</h4>
                     <div class="row g-4 mb-5">
-                        <div class="col-md-6">
-                            <div class="product-category-card">
-                                <div class="product-category-icon">
-                                    <i class="bi bi-book"></i>
-                                </div>
-                                <h5>Educational Toys</h5>
-                                <ul class="product-category-list">
-                                    <li>Learning boards</li>
-                                    <li>Activity sets</li>
-                                    <li>Puzzle kits</li>
-                                    <li>Brain development toys</li>
-                                </ul>
-                            </div>
-                        </div>
                         <div class="col-md-6">
                             <div class="product-category-card">
                                 <div class="product-category-icon">
                                     <i class="bi bi-heart"></i>
                                 </div>
-                                <h5>Soft Toys & Plush Items</h5>
+                                <h5>Plush Toys & Stuffed Animals</h5>
                                 <ul class="product-category-list">
                                     <li>Teddy bears</li>
                                     <li>Character toys</li>
+                                    <li>Animal plush items</li>
                                     <li>Custom plushes (branding available)</li>
+                                    <li>Stuffed animals</li>
+                                    <li>Plush dolls</li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="product-category-card">
                                 <div class="product-category-icon">
-                                    <i class="bi bi-paint-bucket"></i>
+                                    <i class="bi bi-heart-fill"></i>
                                 </div>
-                                <h5>Creative & DIY Kits</h5>
+                                <h5>Educational Plush Items</h5>
                                 <ul class="product-category-list">
-                                    <li>Craft kits</li>
-                                    <li>Paint sets</li>
-                                    <li>Activity boxes</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="product-category-card">
-                                <div class="product-category-icon">
-                                    <i class="bi bi-lightning"></i>
-                                </div>
-                                <h5>Battery-Operated Toys</h5>
-                                <ul class="product-category-list">
-                                    <li>Cars, bikes, robots</li>
-                                    <li>Musical toys</li>
-                                    <li>Interactive learning toys</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="product-category-card">
-                                <div class="product-category-icon">
-                                    <i class="bi bi-trophy"></i>
-                                </div>
-                                <h5>Outdoor & Sports Toys</h5>
-                                <ul class="product-category-list">
-                                    <li>Bats, balls, frisbees</li>
-                                    <li>Outdoor games</li>
-                                    <li>Skipping ropes, play sets</li>
+                                    <li>Learning toys</li>
+                                    <li>Alphabet & number toys</li>
+                                    <li>Puzzle items</li>
+                                    <li>Educational characters</li>
                                 </ul>
                             </div>
                         </div>
@@ -247,11 +213,53 @@ require_once 'includes/header.php';
                                 <div class="product-category-icon">
                                     <i class="bi bi-gift"></i>
                                 </div>
-                                <h5>Return Gift & Festival Hampers</h5>
+                                <h5>Gift Sets & Hampers</h5>
                                 <ul class="product-category-list">
                                     <li>Birthday gift packs</li>
                                     <li>School event gifts</li>
                                     <li>Rakhi, Diwali, Christmas hampers</li>
+                                    <li>Return gift items</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="product-category-card">
+                                <div class="product-category-icon">
+                                    <i class="bi bi-stars"></i>
+                                </div>
+                                <h5>Custom & Branded Items</h5>
+                                <ul class="product-category-list">
+                                    <li>Branded items with company logo</li>
+                                    <li>Custom character designs</li>
+                                    <li>Personalized plush items</li>
+                                    <li>Bulk manufacturing</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="product-category-card">
+                                <div class="product-category-icon">
+                                    <i class="bi bi-box-seam"></i>
+                                </div>
+                                <h5>Products for All Ages</h5>
+                                <ul class="product-category-list">
+                                    <li>Baby items</li>
+                                    <li>Kids toys</li>
+                                    <li>Collectible items</li>
+                                    <li>Decorative plush</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="product-category-card">
+                                <div class="product-category-icon">
+                                    <i class="bi bi-bag-heart"></i>
+                                </div>
+                                <h5>Accessories & Packaging</h5>
+                                <ul class="product-category-list">
+                                    <li>Clothing & accessories</li>
+                                    <li>Gift bags</li>
+                                    <li>Packaging solutions</li>
                                 </ul>
                             </div>
                         </div>
@@ -263,8 +271,9 @@ require_once 'includes/header.php';
                             <i class="bi bi-stars"></i>
                         </div>
                         <div>
-                            <p class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Toys & gifts branded with company logo</p>
-                            <p class="mb-0"><i class="bi bi-check-circle-fill text-primary me-2"></i>Bulk gifting for events and promotions</p>
+                            <p class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Branded items with company logo</p>
+                            <p class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Bulk gifting for events and promotions</p>
+                            <p class="mb-0"><i class="bi bi-check-circle-fill text-primary me-2"></i>Custom manufacturing as per requirements</p>
                         </div>
                     </div>
                 </div>
