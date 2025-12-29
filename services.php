@@ -17,7 +17,7 @@ require_once 'includes/header.php';
     <div class="container">
         <div class="services-intro">
             <p>
-                Mundeshwari Fashion Toys & Gifts offers a complete range of women's clothing manufacturing services for global private-label brands, 
+                MFTG Fashion Toys & Gifts offers a complete range of women's clothing manufacturing services for global private-label brands, 
                 along with plush toys manufacturing and related gift items. Our services combine quality, affordability, 
                 and timely execution to meet all your manufacturing and gifting needs.
             </p>
@@ -31,7 +31,7 @@ require_once 'includes/header.php';
                         </div>
             
             <p class="services-description mb-5">
-                Mundeshwari Fashion Toys & Gifts specializes in manufacturing premium women's clothing for global private-label brands. With advanced machinery, 
+                MFTG Fashion Toys & Gifts specializes in manufacturing premium women's clothing for global private-label brands. With advanced machinery, 
                 skilled craftsmen, and strict quality standards, we deliver top-tier garments that meet international fashion expectations.
             </p>
 
@@ -138,7 +138,7 @@ require_once 'includes/header.php';
                         </div>
             
             <p class="services-description mb-5">
-                Mundeshwari Fashion Toys & Gifts manufactures premium plush toys and gift items, serving retail stores, online sellers, 
+                MFTG Fashion Toys & Gifts manufactures premium plush toys and gift items, serving retail stores, online sellers, 
                 corporate gifting companies, schools, and event organizers with quality products for all occasions.
             </p>
 
