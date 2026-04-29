@@ -30,6 +30,7 @@ access_log
 # Environment and Config Files (uncomment if needed)
 # .env
 # config.local.php
+config.local.php
 
 # Cache and Temporary Files
 cache/
@@ -67,4 +68,3 @@ yarn.lock
 *.html~
 *.css~
 *.js~
-

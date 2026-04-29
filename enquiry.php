@@ -1,5 +1,7 @@
 <?php
 require_once 'config.php';
+require_once 'includes/flash.php';
+startFlashSession();
 $page_title = $page_titles['enquiry'];
 require_once 'includes/header.php';
 ?>
@@ -37,7 +39,6 @@ require_once 'includes/header.php';
                     <p>
                         <strong>Phone:</strong><br>
                         <a href="tel:<?php echo SITE_PHONE1; ?>"><?php echo SITE_PHONE1; ?></a><br>
-                        <a href="tel:<?php echo SITE_PHONE2; ?>"><?php echo SITE_PHONE2; ?></a>
                     </p>
                     <p>
                         <strong>Email:</strong><br>
@@ -47,6 +48,7 @@ require_once 'includes/header.php';
             </div>
             
             <div class="enquiry-form-section">
+                <?php renderFlashMessage(); ?>
                 <form id="enquiryForm" class="enquiry-form" action="process-enquiry.php" method="POST">
                     <div class="form-row">
                         <div class="form-group">
@@ -112,4 +114,3 @@ require_once 'includes/header.php';
 </section>
 
 <?php require_once 'includes/footer.php'; ?>
-

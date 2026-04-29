@@ -2,6 +2,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Hero Carousel Auto-Slideshow
     initHeroCarousel();
+    initFormDialog();
+    initFormLoading();
 
     // Form validation and handling
     const contactForm = document.getElementById('contactForm');
@@ -139,31 +141,48 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(element);
     });
 
-    // Handle success/error messages from URL parameters
-    const urlParams = new URLSearchParams(window.location.search);
-    const success = urlParams.get('success');
-    const error = urlParams.get('error');
-
-    if (success) {
-        showMessage('Thank you! Your message has been sent successfully. We will get back to you soon.', 'success');
-    }
-
-    if (error) {
-        let errorMessage = 'Something went wrong. Please try again.';
-        switch(error) {
-            case 'missing_fields':
-                errorMessage = 'Please fill in all required fields.';
-                break;
-            case 'invalid_email':
-                errorMessage = 'Please enter a valid email address.';
-                break;
-            case 'send_failed':
-                errorMessage = 'Failed to send message. Please try again or contact us directly.';
-                break;
-        }
-        showMessage(errorMessage, 'error');
-    }
 });
+
+function initFormDialog() {
+    const dialog = document.querySelector('.form-dialog-overlay');
+
+    if (!dialog) {
+        return;
+    }
+
+    document.body.classList.add('form-dialog-open');
+
+    const okButton = dialog.querySelector('.form-dialog-ok');
+
+    if (okButton) {
+        okButton.focus();
+        okButton.addEventListener('click', function() {
+            window.location.reload();
+        });
+    }
+}
+
+function initFormLoading() {
+    document.querySelectorAll('#contactForm, #enquiryForm').forEach(form => {
+        form.addEventListener('submit', function(e) {
+            if (!validateForm(this)) {
+                e.preventDefault();
+                return;
+            }
+
+            const submitButton = this.querySelector('button[type="submit"]');
+
+            if (!submitButton || submitButton.disabled) {
+                return;
+            }
+
+            submitButton.disabled = true;
+            submitButton.dataset.originalText = submitButton.textContent;
+            submitButton.classList.add('btn-loading');
+            submitButton.innerHTML = '<span class="btn-spinner" aria-hidden="true"></span> Sending...';
+        });
+    });
+}
 
 // Form validation function
 function validateForm(form) {
@@ -497,4 +516,3 @@ function initHeroCarousel() {
         });
     });
 }
-

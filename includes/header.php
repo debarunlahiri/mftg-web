@@ -13,7 +13,7 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
     <meta name="keywords" content="digital printing, sublimation printing, poly fabric printing, sportswear printing, Noida, Delhi NCR">
     <title><?php echo isset($page_title) ? $page_title : SITE_NAME; ?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="<?php echo SITE_URL; ?>/css/style.css">
+    <link rel="stylesheet" href="<?php echo SITE_URL; ?>/css/style.css?v=20260425">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -27,9 +27,6 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
                 <div class="d-flex gap-3 flex-wrap">
                     <a href="tel:<?php echo SITE_PHONE1; ?>" class="text-white text-decoration-none">
                         <i class="bi bi-telephone icon-svg"></i> <?php echo SITE_PHONE1; ?>
-                    </a>
-                    <a href="tel:<?php echo SITE_PHONE2; ?>" class="text-white text-decoration-none">
-                        <i class="bi bi-telephone icon-svg"></i> <?php echo SITE_PHONE2; ?>
                     </a>
                     <a href="mailto:<?php echo SITE_EMAIL; ?>" class="text-white text-decoration-none">
                         <i class="bi bi-envelope icon-svg"></i> <?php echo SITE_EMAIL; ?>
@@ -69,4 +66,3 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
             </div>
         </div>
     </nav>
-

@@ -1,6 +1,10 @@
 # Enable Rewrite Engine
 RewriteEngine On
 
+<Files "config.local.php">
+    Require all denied
+</Files>
+
 # Remove .php extension
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
@@ -36,4 +40,3 @@ AddDefaultCharset UTF-8
     Header set X-Content-Type-Options "nosniff"
     Header set X-Frame-Options "SAMEORIGIN"
 </IfModule>
-

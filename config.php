@@ -4,7 +4,8 @@ define('SITE_NAME', 'MFTG Fashion Toys & Gifts');
 
 // Dynamically determine the base URL based on current request
 // This ensures CSS, images, and other assets work when accessing via IP address or domain
-$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
+$server_port = $_SERVER['SERVER_PORT'] ?? null;
+$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $server_port == 443) ? "https://" : "http://";
 $host = $_SERVER['HTTP_HOST']; // This will be the IP address or domain being accessed
 
 // Get the base path from SCRIPT_NAME (e.g., /mftg-web/index.php becomes /mftg-web)
@@ -28,10 +29,15 @@ $base_path = rtrim($base_path, '/');
 define('SITE_URL', $protocol . $host . $base_path);
 
 define('SITE_EMAIL', 'mftgindia@gmail.com');
-define('SITE_PHONE1', '+91-9999992271');
-define('SITE_PHONE2', '+91-8130754544');
-define('SITE_ADDRESS', 'Block C, Shop No. 410, 1st Floor, Sector – 10, Noida, U.P (INDIA)');
+define('CONTACT_EMAIL', 'mftgindia@gmail.com');
+define('CONTACT_CC_EMAIL', 'techproenq@gmail.com');
+define('SITE_PHONE1', '+91-8368097183');
+define('SITE_ADDRESS', 'Akash Nagar, Yusüfpur Chak Saberi, Gautam Buddha Nagar, Uttar Pradesh - 201009, India');
 define('SITE_WEBSITE', 'www.mftgindia.com');
+
+if (file_exists(__DIR__ . '/config.local.php')) {
+    require_once __DIR__ . '/config.local.php';
+}
 
 // Page titles
 $page_titles = [
@@ -56,4 +62,3 @@ $services_list = [
     ]
 ];
 ?>
-

@@ -361,10 +361,6 @@ require_once 'includes/header.php';
                             <a href="tel:<?php echo SITE_PHONE1; ?>"><?php echo SITE_PHONE1; ?></a>
                         </div>
                         <div class="contact-item">
-                            <i class="bi bi-telephone"></i>
-                            <a href="tel:<?php echo SITE_PHONE2; ?>"><?php echo SITE_PHONE2; ?></a>
-                        </div>
-                        <div class="contact-item">
                             <i class="bi bi-envelope"></i>
                             <a href="mailto:<?php echo SITE_EMAIL; ?>"><?php echo SITE_EMAIL; ?></a>
                         </div>

@@ -37,7 +37,6 @@
                         <li class="mb-3">
                             <strong class="d-block mb-1">Phone:</strong>
                             <a href="tel:<?php echo SITE_PHONE1; ?>" class="text-white-50 text-decoration-none d-block"><?php echo SITE_PHONE1; ?></a>
-                            <a href="tel:<?php echo SITE_PHONE2; ?>" class="text-white-50 text-decoration-none d-block"><?php echo SITE_PHONE2; ?></a>
                         </li>
                         <li class="mb-3">
                             <strong class="d-block mb-1">Email:</strong>
@@ -57,7 +56,6 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <script src="<?php echo SITE_URL; ?>/js/main.js"></script>
+    <script src="<?php echo SITE_URL; ?>/js/main.js?v=20260425"></script>
 </body>
 </html>
-
