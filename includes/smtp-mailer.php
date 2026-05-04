@@ -55,6 +55,14 @@ function smtpEncodeHeader($value)
     return $value;
 }
 
+function smtpParseAddressList($emails)
+{
+    $addresses = array_map('trim', explode(',', (string) $emails));
+    return array_values(array_filter($addresses, function ($email) {
+        return $email !== '';
+    }));
+}
+
 function smtpNormalizeBody($value)
 {
     $value = str_replace(["\r\n", "\r"], "\n", $value);
@@ -69,8 +77,9 @@ function sendSmtpMail($to, $subject, $body, $replyTo = '', $replyToName = '', $h
     $username = defined('SMTP_USERNAME') ? SMTP_USERNAME : '';
     $password = defined('SMTP_PASSWORD') ? SMTP_PASSWORD : '';
     $fromEmail = defined('SMTP_FROM_EMAIL') ? SMTP_FROM_EMAIL : $username;
-    $fromName = $replyToName !== '' ? $replyToName : (defined('SMTP_FROM_NAME') ? SMTP_FROM_NAME : SITE_NAME);
+    $fromName = defined('SMTP_FROM_NAME') ? SMTP_FROM_NAME : SITE_NAME;
     $heloDomain = defined('SMTP_HELO_DOMAIN') ? SMTP_HELO_DOMAIN : 'mftgindia.com';
+    $ccAddresses = smtpParseAddressList($cc);
 
     if ($host === '' || $username === '' || $password === '' || $fromEmail === '') {
         throw new RuntimeException('SMTP is not configured.');
@@ -119,8 +128,8 @@ function sendSmtpMail($to, $subject, $body, $replyTo = '', $replyToName = '', $h
         smtpCommand($socket, 'MAIL FROM:<' . $fromEmail . '>', [250]);
         smtpCommand($socket, 'RCPT TO:<' . $to . '>', [250, 251]);
 
-        if ($cc !== '') {
-            smtpCommand($socket, 'RCPT TO:<' . $cc . '>', [250, 251]);
+        foreach ($ccAddresses as $ccAddress) {
+            smtpCommand($socket, 'RCPT TO:<' . $ccAddress . '>', [250, 251]);
         }
 
         smtpCommand($socket, 'DATA', [354]);
@@ -136,8 +145,8 @@ function sendSmtpMail($to, $subject, $body, $replyTo = '', $replyToName = '', $h
             'X-Mailer: MFTG Contact Form',
         ];
 
-        if ($cc !== '') {
-            $headers[] = 'Cc: ' . smtpAddress($cc);
+        if (!empty($ccAddresses)) {
+            $headers[] = 'Cc: ' . implode(', ', array_map('smtpAddress', $ccAddresses));
         }
 
         if ($isHtml) {

@@ -30,7 +30,7 @@ define('SITE_URL', $protocol . $host . $base_path);
 
 define('SITE_EMAIL', 'mftgindia@gmail.com');
 define('CONTACT_EMAIL', 'mftgindia@gmail.com');
-define('CONTACT_CC_EMAIL', 'techproenq@gmail.com');
+define('CONTACT_CC_EMAIL', 'techproenq@gmail.com, summitcodeworks@gmail.com');
 define('SITE_PHONE1', '+91-8368097183');
 define('SITE_ADDRESS', 'Akash Nagar, Yusüfpur Chak Saberi, Gautam Buddha Nagar, Uttar Pradesh - 201009, India');
 define('SITE_WEBSITE', 'www.mftgindia.com');
